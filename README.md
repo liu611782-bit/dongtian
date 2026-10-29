@@ -24,3 +24,28 @@ share_plus: ^10.0.0   # 系统分享
 gal: ^2.3.0           # 保存到相册
 flutter pub get
 flutter build apk --release --target-platform android-arm64
+使用说明
+安装本 APK
+在 App 中先下载想要的漫剧/短剧集数
+进入播放页或已下载列表
+点击「分享」或「导出到相册」按钮即可
+权限说明
+分享功能使用系统分享面板，无需额外权限
+导出到相册需要相册写入权限（Android 13+ 使用 READ_MEDIA_VIDEO，旧版本使用存储权限）
+免责声明
+本项目仅供学习与个人使用。
+请遵守相关法律法规，不要用于任何商业或侵权用途。
+原项目版权归原作者所有。
+致谢
+原项目：Xanerix/guoapp
+以及其他红果鉴 / 真果鉴相关开源贡献者
+---
+
+### 手机上添加 README 的步骤：
+
+1. 进入你的 GitHub 仓库
+2. 点击 **Add file** → **Create new file**
+3. 文件名填写：`README.md`
+4. 把上面的内容全部粘贴进去
+5. 滑到底部，点击 **Commit changes**
+
