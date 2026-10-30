@@ -27,6 +27,8 @@ dependencies:
   package_info_plus: ^10.2.1
   dynamic_color: ^2.1.0
   url_launcher: ^6.3.3
+  share_plus: ^10.0.0    # 系统分享（QQ、微信、抖音等）
+  gal: ^2.3.0            # 保存视频到系统相册
 
 dev_dependencies:
   flutter_test:
